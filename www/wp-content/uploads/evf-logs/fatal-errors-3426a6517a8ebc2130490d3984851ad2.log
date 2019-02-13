@@ -1,0 +1,47 @@
+2019-02-05T10:58:53+00:00 CRITICAL Uncaught Error: Call to undefined function get_style_url() in /srv/www/wp-content/themes/gireytheme/functions.php:3
+Stack trace:
+#0 /srv/www/wp-settings.php(479): include()
+#1 /srv/www/wp-config.php(90): require_once('/srv/www/wp-set...')
+#2 /srv/www/wp-load.php(37): require_once('/srv/www/wp-con...')
+#3 /srv/www/wp-blog-header.php(13): require_once('/srv/www/wp-loa...')
+#4 /srv/www/index.php(17): require('/srv/www/wp-blo...')
+#5 {main}
+  thrown
+
+2019-02-05T10:59:07+00:00 CRITICAL Uncaught Error: Call to undefined function get_style_uri() in /srv/www/wp-content/themes/gireytheme/functions.php:3
+Stack trace:
+#0 /srv/www/wp-settings.php(479): include()
+#1 /srv/www/wp-config.php(90): require_once('/srv/www/wp-set...')
+#2 /srv/www/wp-load.php(37): require_once('/srv/www/wp-con...')
+#3 /srv/www/wp-blog-header.php(13): require_once('/srv/www/wp-loa...')
+#4 /srv/www/index.php(17): require('/srv/www/wp-blo...')
+#5 {main}
+  thrown
+
+2019-02-05T10:59:14+00:00 CRITICAL Uncaught Error: Call to undefined function get_style_uri() in /srv/www/wp-content/themes/gireytheme/functions.php:3
+Stack trace:
+#0 /srv/www/wp-settings.php(479): include()
+#1 /srv/www/wp-config.php(90): require_once('/srv/www/wp-set...')
+#2 /srv/www/wp-load.php(37): require_once('/srv/www/wp-con...')
+#3 /srv/www/wp-blog-header.php(13): require_once('/srv/www/wp-loa...')
+#4 /srv/www/index.php(17): require('/srv/www/wp-blo...')
+#5 {main}
+  thrown
+
+2019-02-05T10:59:28+00:00 CRITICAL Uncaught Error: Call to undefined function get_style_uri() in /srv/www/wp-content/themes/gireytheme/functions.php:3
+Stack trace:
+#0 /srv/www/wp-settings.php(479): include()
+#1 /srv/www/wp-config.php(90): require_once('/srv/www/wp-set...')
+#2 /srv/www/wp-load.php(37): require_once('/srv/www/wp-con...')
+#3 /srv/www/wp-admin/admin-ajax.php(22): require_once('/srv/www/wp-loa...')
+#4 {main}
+  thrown
+
+2019-02-05T11:10:13+00:00 CRITICAL Uncaught Error: Call to undefined function the_titile() in /srv/www/wp-content/themes/gireytheme/index.php:11
+Stack trace:
+#0 /srv/www/wp-includes/template-loader.php(77): include()
+#1 /srv/www/wp-blog-header.php(19): require_once('/srv/www/wp-inc...')
+#2 /srv/www/index.php(17): require('/srv/www/wp-blo...')
+#3 {main}
+  thrown
+
