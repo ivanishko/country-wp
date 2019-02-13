@@ -3,7 +3,7 @@
 get_header();
 ?>
 
-<!--////////////////////////////////////Container-->
+<!--Container-->
 <section id="container" class="home-page">
 	<div class="wrap-container clearfix">
 		<div id="main-content">
