@@ -153,7 +153,7 @@
 					'public'              => true,
 					'show_ui'             => null, // зависит от public
 					'menu_icon'           => 'dashicons-smiley', 
-					'supports'            => array('title','editor','thumbnail'), // 'title','editor','author','thumbnail','excerpt','trackbacks','custom-fields','comments','revisions','page-attributes','post-formats'	
+					'supports'            => array('title','thumbnail'), // 'title','editor','author','thumbnail','excerpt','trackbacks','custom-fields','comments','revisions','page-attributes','post-formats'	
 					'has_archive'		  => true,		
 
 			) );
@@ -161,17 +161,37 @@
 
 
 
-	function getservices(){
+	function getServices(){
 		$args = array(
-			'numberposts' => 10,
+			'numberposts' => 33,
 			'orderby'     => 'meta_value',
-			'meta_key'	  => 'sort',
+			'meta_key'	  => 'selectservices',
 			'order'       => 'ASC',
 			'post_type'   => 'service',
 	);	
 		$posts = [];
 		foreach (get_posts($args) as $post) {
-			$post = get_fields($post->ID);		
+			$post = get_fields($post->ID);	
+			//$post['img'] = get_the_post_thumbnail();		
+			$posts[] = $post;	
+		}
+		return $posts;
+	}
+
+
+	function getServicesCat($field){
+		$args = array(
+			'numberposts' => 33,
+			'orderby'     => 'date',
+			'meta_value'  => $field,
+			'meta_key'	  => 'selectservices',
+			'order'       => 'DESC',
+			'post_type'   => 'service',
+	);	
+		$posts = [];
+		foreach (get_posts($args) as $post) {
+			$post = get_fields($post->ID);	
+			//$post['img'] = get_the_post_thumbnail();		
 			$posts[] = $post;	
 		}
 		return $posts;
