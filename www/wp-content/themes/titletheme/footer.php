@@ -3,7 +3,7 @@
 	<div class="zerogrid top-footer">
 		<div class="row">
 			<div class="col-1-5">
-				<a href="#"><img src="<?php echo (F_IMG_DIR);?>15.jpg" /></a>
+				<a href="#"><img style="height: 50px; width: auto;" src="<?php echo (F_IMG_DIR);?>15.jpg" /></a>
 			</div>
 			<div class="col-1-5">
 				<a href="#"><img src="<?php echo (F_IMG_DIR);?>16.jpg" /></a>
