@@ -14,11 +14,13 @@
 		}	
 	endif;
 
-	if (is_category('news')):
+	if (is_category('news') || (is_page('116'))):
 		dynamic_sidebar('sidebar-sportsnews');
 	endif;
 
-	if (get_post_type()=='sportsnews'):
+
+
+	if (get_post_type()=='sportsnews' || get_post_type()=='post'):
 		dynamic_sidebar('sidebar-news');
 	endif;
 ?>

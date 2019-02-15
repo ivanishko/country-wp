@@ -71,7 +71,7 @@
 				<div class="wrap-col">
 					<h3>Где мы</h3>
 
-					<span><i class="fa fa-map-marker"></i> Краснодарский край, Гулькевичский район, посёлок Гирей</span>
+					<span><i class="fa fa-map-marker"></i> Краснодарский край,<br> Гулькевичский район,<br> посёлок Гирей</span>
 				</div>
 			</div>
 		</div>
