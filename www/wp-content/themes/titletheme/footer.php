@@ -2,20 +2,20 @@
 <footer>
 	<div class="zerogrid top-footer">
 		<div class="row">
-			<div class="col-1-5">
-				<a href="#"><img style="height: 50px; width: auto;" src="<?php echo (F_IMG_DIR);?>15.jpg" /></a>
+			<div class="col-1-4">
+				<a href="http://footgul.ru" target=_blank><img style="height: 50px; width: auto;" src="<?php echo (F_IMG_DIR);?>15.jpg" /></a>
 			</div>
-			<div class="col-1-5">
-				<a href="#"><img src="<?php echo (F_IMG_DIR);?>16.jpg" /></a>
+			<div class="col-1-4">
+				<a href="http://гирейское.рф" target=_blank><img src="<?php echo (F_IMG_DIR);?>16.jpg" /></a>
 			</div>
-			<div class="col-1-5">
-				<a href="#"><img src="<?php echo (F_IMG_DIR);?>17.jpg" /></a>
+			<div class="col-1-4">
+				<a href="http://girey.my1.ru" target=_blank><img src="<?php echo (F_IMG_DIR);?>17.jpg" /></a>
 			</div>
-			<div class="col-1-5">
+		<!--	<div class="col-1-5">
 				<a href="#"><img src="<?php echo (F_IMG_DIR);?>18.jpg" /></a>
-			</div>
-			<div class="col-1-5">
-				<a href="#"><img src="<?php echo (F_IMG_DIR);?>19.jpg" /></a>
+			</div> -->
+			<div class="col-1-4">
+				<a href="http://wordpress.org" target=_blank rel="nofollow"><img src="<?php echo (F_IMG_DIR);?>19.jpg" /></a>
 			</div>
 		</div>
 	</div>
