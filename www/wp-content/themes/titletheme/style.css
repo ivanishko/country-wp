@@ -492,7 +492,7 @@ a.button.bt2 {background: #0000ff;color: #ffffff;}
   }
 
 .wp-block-table.is-style-stripes tr:nth-child(odd) {
-	background-color: #b2c4d6;
+	background-color: #dddddd;
 }
 
 .wp-block-table.is-style-stripes {
