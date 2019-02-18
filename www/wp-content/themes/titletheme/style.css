@@ -43,6 +43,7 @@ img{max-width:100%;	height: auto;width: auto\9; /* ie8 */}
 a{color: #212121;text-decoration: none;}
 a:hover { transition: text-shadow 0.3s ease-in 0s, color 0.3s ease-in 0s;text-shadow: 2px 2px 0px #F9BD28;}
 
+.wrap-content a, .info a {text-decoration: underline;}
 h1, h2 	{font-size: 25px;line-height: 25px;}
 h3, h4	{font-size: 20px;line-height: 20px;}
 h5, h6	{font-size: 18px;line-height: 16px;}
@@ -105,7 +106,8 @@ header .logo img{display: inline-block;margin: auto;padding: 10px;max-width: 210
 .content-box .title h2, .row .title h2{color: #FFCD02; font-family: rubik one;font-size: 60px;line-height: 1.2;}
 .row .title h2 {margin-top: 0;}
 .content-box .title h2 span{font-size: 48px;font-family: "Oswald",Arial,Helvetica,"Nimbus Sans L",sans-serif;color: #fff;line-height: 1.5;}
-.content-box .sub-title{background: #CB0001;display: inline-block;margin-bottom: 20px;padding: 10px;}
+.content-box .sub-title, h2.service-title{background: #CB0001;display: inline-block;margin-bottom: 20px;padding: 10px;}
+h2.service-title {color:#ffffff; text-transform: uppercase; margin-top: 20px;}
 .content-box .sub-title h2{color: #fff;font-size: 20px;}
 .content-box.box-style-1{background: #F4F4F4;}
 .content-box.box-style-2{ background: url(../titletheme/assets/images/image_dark.jpg) no-repeat center;  }
@@ -126,7 +128,7 @@ header .logo img{display: inline-block;margin: auto;padding: 10px;max-width: 210
 
 article{margin-bottom: 30px;background: #fff;border-bottom: 1px dashed #ccc;}
 article:after, article:before{clear: both; content: '\0020'; display: block; visibility: hidden; width: 0; height: 0;}
-article .art-header{}
+article .art-header{text-align:center;}
 article .art-content{padding: 30px;}
 article .art-content h3{margin: 0;padding: 0; }
 article .art-content blockquote {border-left: 3px solid #1c7791;font-size: 18px;margin: 0 50px;font-style: italic;color: #666;padding-left: 20px;}
