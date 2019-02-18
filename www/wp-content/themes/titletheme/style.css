@@ -490,3 +490,11 @@ a.button.bt2 {background: #0000ff;color: #ffffff;}
   .user-social ul li {
     padding: 5px 0;
   }
+
+.wp-block-table.is-style-stripes tr:nth-child(odd) {
+	background-color: #dddddd;
+}
+
+.wp-block-table.is-style-stripes {
+	width: 100%;
+}
