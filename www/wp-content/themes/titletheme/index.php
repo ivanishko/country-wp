@@ -194,7 +194,7 @@ get_header();
 							<h2><span>Наш </span>instagram</h2>
 						</div>	
 						<div class="row">
-							  <?php echo do_shortcode( '[instagram-feed]' ); ?>
+							  <?php echo do_shortcode( '[instagram-feed num=8 cols=4]' ); ?>
 						</div>
 					</div>
 				</div>
