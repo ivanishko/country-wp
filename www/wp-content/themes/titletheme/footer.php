@@ -29,8 +29,11 @@
 				<div class="wrap-col">
 					<h3>Главные разделы</h3>
 					<ul>
+                        <li><a href="/history">История</a></li>
 						<li><a href="/news">Новости</a></li>
 						<li><a href="/sportsnews">Новости спорта</a></li>
+						<li><a href="/wall-of-sports-glory">Доска спортивной славы</a></li>
+
 						<li><a href="/service">Услуги</a></li>
 						<li><a href="/raspisanija">Расписания</a></li>
 					</ul>
@@ -38,9 +41,8 @@
 			</div>
 			<div class="col-1-4 col-footer-3">
 				<div class="wrap-col">
-					<h3>Главные фотографии</h3>
 					<div class="row">
-                        <?php echo do_shortcode( '[instagram-feed]' ); ?>
+                        <?php echo do_shortcode( '[instagram-feed num=12 col=2]' ); ?>
 					</div>
 				</div>
 			</div>
