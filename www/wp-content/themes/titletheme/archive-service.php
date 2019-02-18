@@ -41,6 +41,7 @@
 	<div style="clear:both"></div>
 		<?php	endforeach; ?>	
 </div>
+    <a href="/addservice">Добавиться на эту страницу</a>
 </div>
 
 

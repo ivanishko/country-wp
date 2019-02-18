@@ -122,7 +122,8 @@ h2.service-title {color:#ffffff; text-transform: uppercase; margin-top: 20px;}
 .content-box.box-4 {}
 
 /* ---MainContent-Article--- */
-#main-content{}
+#main-content{
+	min-height: 400px ;}
 #main-content .wrap-box{padding:10px 0;position: relative;}
 
 
@@ -173,6 +174,7 @@ article  h1.entry-title{line-height: 1.2;font-size: 38px;}
 .widget.wid-related img{ max-width: 243px; width: 100%;border:1px solid #DDD;}
 .widget.wid-related h4{margin-top: 10px;}
 
+.widgettitle {margin-bottom: 10px;}
 .contact-header {background-color: #FFCD02;padding: 15px 20px;}
 .contact-header h5 {font-size: 17px;color: #333;text-transform: uppercase;}
 
@@ -509,7 +511,7 @@ a.button.bt2 {background: #0000ff;color: #ffffff;}
 	width: 100%;
 }
 
-#sb_instagram .sb_instagram_header h3.sbi_no_bio {
+#sb_instagram .sbi_header_text, #sb_instagram .sb_instagram_header h3.sbi_no_bio {
 
 	color: #fff;
 }
