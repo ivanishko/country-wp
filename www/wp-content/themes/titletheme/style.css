@@ -101,7 +101,7 @@ header .logo img{display: inline-block;margin: auto;padding: 10px;max-width: 210
 
 /* ---content-box--- */
 .content-box {padding: 0;}
-.content-box .title{margin-bottom: 70px;color: #fff;text-transform: uppercase}
+.content-box .title{margin-bottom: 0;color: #fff;text-transform: uppercase; text-align: center;}
 
 .content-box .title h2, .row .title h2{color: #FFCD02; font-family: rubik one;font-size: 60px;line-height: 1.2;}
 .row .title h2 {margin-top: 0;}
@@ -456,6 +456,14 @@ a.button.bt2 {background: #0000ff;color: #ffffff;}
 	.callbacks .caption {padding: 12px 10px 5px;}
 	.callbacks .caption h1{font-size: 20px;margin-bottom: 0;line-height: 1.2;}
 	.callbacks .caption span{font-size: 12px;line-height: 1.2;}
+
+	.content-box .title h2, .row .title h2,.content-box .title h2 span
+	{font-size:32px; }
+	.content-box.box-3 {padding-top: 10px;}
+
+	.content-box.box-1 {
+		display: none;
+	}
 }
 @media(max-width: 468px){
 	.callbacks .caption {display:none;}
