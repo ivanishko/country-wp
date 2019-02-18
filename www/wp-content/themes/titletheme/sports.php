@@ -20,7 +20,7 @@ get_header(); ?>
 								</div>
 							</div>
 						</div>
-						<img src="<?php echo $post['photo'] ?>" style="width: 200px">
+						<img src="<?php echo $post['photo'] ?>" style="height: 300px; width: auto ">
 				</div>
 				<div class="item-content">
 					<h3><?php echo $post['lastname'] ?> <?php echo $post['firstname'] ?></h3>
