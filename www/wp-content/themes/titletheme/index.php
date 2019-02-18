@@ -15,13 +15,14 @@ get_header();
 							<div class="col-1-4">
 								<div class="wrap-col">
 									<div class="sub-title">
-										<h2>ИНТЕРЕСНОЕ</h2>
+										<h2>ГЛАВНОЕ</h2>
+									</div>
+									<div class="item" style="text-align: center">
+                                        <a href="/administration/gerb-i-flag/"><img src="/wp-content/uploads/2019/02/image6-366x450.png"  width="50%"/></a>
+                                        <p>Геральдические лилии и розы переменных цветов в рассечённом серебряно-червлёном поле – элементы герба Воронцовых и Воронцовых-Дашковых</p>
 									</div>
 									<div class="item">
-										<img src="<?php echo (F_IMG_DIR);?>banner.jpg" />
-									</div>
-									<div class="item">
-										<img src="<?php echo (F_IMG_DIR);?>banner2.jpg" />
+                                        <p>Добро пожаловать на обновлённый сайт посёлка Гирей</p>
 									</div>
 								</div>
 							</div>
