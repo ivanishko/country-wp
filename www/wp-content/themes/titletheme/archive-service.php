@@ -6,13 +6,13 @@
 <div class="wrap-container zerogrid">
 	<h1>УСЛУГИ</h1>
 	
-			<?php 	$field = ['Красота и здоровье','Одежда и обувь','Отдых и развлечения']; 
+			<?php 	$field = ['Красота и здоровье','Одежда и обувь','Отдых и развлечения', 'Связь'];
 				//var_dump($field) ?>
 		
 
 		<div id="main-content" class="col">	
 			<?php foreach ($field as $f):  ?>
-				<h3 style="text-transform: uppercase; margin: 10px 0;"><?php echo $f; ?></h3>	
+				<div class="sub-title"><h2 class="service-title"><?php echo $f; ?></h2></div>
 				<?php foreach (getServicesCat($f) as $post ): ?>		
 					<div class="col-1-3 item item-service">
 							<div class="art-header"><?php $post['img'] ?></div>
@@ -32,6 +32,9 @@
 							<?php if($post['vk']): ?>
 								<div class="info">Ссылка ВК: <a href="https://www.vk.com/<?php echo $post['vk']?>" target=_blank rel="nofollow">@<?php echo $post['vk']?></a></div>
 							<?php endif;  ?>
+                                <?php if($post['site']): ?>
+                                    <div class="info">Сайт: <a href="<?php echo $post['site']?>" target=_blank rel="nofollow"><?php echo $post['site']?></a></div>
+                                <?php endif;  ?>
 							</div>
 					</div>		
 		<?php	endforeach; ?>
