@@ -78,6 +78,13 @@
 			'after_widget'  => "</div>\n"
 		]);
 
+        register_sidebar([
+            'name' => 'Sidebar Right FootbalTable',
+            'id' => 'sidebar-footbal',
+            'description' => 'Правая колонка таблица',
+            'before_widget' => '<div class="widget %2$s">',
+            'after_widget'  => "</div>\n"
+        ]);
 
 	}
 
