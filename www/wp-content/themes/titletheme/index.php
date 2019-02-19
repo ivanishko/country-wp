@@ -12,7 +12,7 @@ get_header();
 				<div class="wrap-box" >
 					<div class="zerogrid">
 						<div class="row">
-							<div class="col-1-4">
+							<div class="col-1-4 noadaptive">
 								<div class="wrap-col">
 									<div class="sub-title">
 										<h2>ГЛАВНОЕ</h2>

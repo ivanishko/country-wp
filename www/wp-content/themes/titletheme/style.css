@@ -87,10 +87,10 @@ header .logo img{display: inline-block;margin: auto;padding: 10px;max-width: 210
 	header .logo img{display:block;}
 }
 
+
 .title {
 	text-align: center;
 }
-
 /* ---------------------------------------------------------------------------- */
 /* -------------------------------------Container------------------------------ */
 /* ---------------------------------------------------------------------------- */
@@ -225,6 +225,12 @@ footer .logo{top: 0px;margin-bottom: 20px;text-align: center;}
 @media all and (max-width: 768px){
 	.copyright{text-align: center;}
 	.copyright ul.quick-link{float: none;margin-top: 10px;}
+
+	.col-footer-3 {
+		display:none;
+	}
+
+
 }
 /* ---------------------------------------------------------------------------- */
 /* -------------------------------------Button--------------------------------- */
@@ -478,6 +484,9 @@ a.button.bt2 {background: #0000ff;color: #ffffff;}
 	.content-box.box-1 {
 		display: none;
 	}
+
+
+
 }
 @media(max-width: 468px){
 	.callbacks .caption {display:none;}
