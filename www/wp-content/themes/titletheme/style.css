@@ -87,7 +87,9 @@ header .logo img{display: inline-block;margin: auto;padding: 10px;max-width: 210
 	header .logo img{display:block;}
 }
 
-
+.title {
+	text-align: center;
+}
 
 /* ---------------------------------------------------------------------------- */
 /* -------------------------------------Container------------------------------ */
