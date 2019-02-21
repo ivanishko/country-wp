@@ -60,7 +60,7 @@
 	<div class="zerogrid wrapper">
 		Copyright @ 2011-<?php echo date('Y');?> - <a href="http://www.megacode-it.ru" target="_blank" rel="nofollow">Проект Megacode-IT</a>
 		<ul class="quick-link">
-			<li><a href="#">Ссылка</a>
+			<li>
                 <!-- Yandex.Metrika informer -->
                 <a href="https://metrika.yandex.ru/stat/?id=6307444&amp;from=informer"
                    target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/6307444/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
