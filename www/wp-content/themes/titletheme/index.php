@@ -40,7 +40,7 @@ get_header();
 												<div class="item-date-box">
 													<div class="item-caption-inner">
 														<div class="item-caption-inner1">
-															<h3><a href="<?php the_permalink() ?>"><img src=<?php the_post_thumbnail('medium')?></a></h3>
+															<a href="<?php the_permalink() ?>"><?php the_post_thumbnail('medium')?></a>
 															<span></span>
 														</div>
 													</div>
@@ -48,15 +48,15 @@ get_header();
 											</div>
 											<div class="col-2-3">
 												<div class="item-content">
-													
-												<a href="<?php the_permalink() ?>">
-													<h3><?php the_title() ?></h3>
-												</a>
+
+                                                    <h3><a href="<?php the_permalink() ?>">
+													<?php the_title() ?>
+												</a></h3>
 													<div class="info"><?php the_date(); ?></div>
-													<p><?php echo CFS()->get('intro') ?></p>
-													<a href="<?php the_permalink() ?>">Далее...</a>
+													<p class="excerpt"><?php echo CFS()->get('intro') ?></p>
 												</div>
-											</div>
+
+											</div><a class="button button02" href="<?php the_permalink() ?>">Далее...</a>
 											<div class="clear"></div>
 										</div>
 									</div>
@@ -82,7 +82,7 @@ get_header();
 									<?php foreach (getSportsNews() as $post):?>
 										<?php //var_dump($post); ?>
 										<div class="item">
-											<a href="<?php the_permalink(); ?>"><img src="<?php the_post_thumbnail('medium') ;?></a>
+											<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium') ;?></a>
 											<div class="item-content">
 												<a href="<?php the_permalink();?>"><h3><?php the_title(); ?></h3></a>
 												<?php echo get_the_date(); ?>
