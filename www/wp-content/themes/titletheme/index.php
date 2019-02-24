@@ -41,21 +41,18 @@ get_header();
 													<div class="item-caption-inner">
 														<div class="item-caption-inner1">
 															<a href="<?php the_permalink() ?>"><?php the_post_thumbnail('medium')?></a>
-															<span></span>
 														</div>
 													</div>
 												</div>
 											</div>
 											<div class="col-2-3">
 												<div class="item-content">
-
                                                     <h3><a href="<?php the_permalink() ?>">
 													<?php the_title() ?>
 												</a></h3>
 													<div class="info"><?php the_date(); ?></div>
 													<p class="excerpt"><?php echo CFS()->get('intro') ?></p>
 												</div>
-
 											</div><a class="button button02" href="<?php the_permalink() ?>">Далее...</a>
 											<div class="clear"></div>
 										</div>
@@ -85,8 +82,7 @@ get_header();
 											<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium') ;?></a>
 											<div class="item-content">
 												<a href="<?php the_permalink();?>"><h3><?php the_title(); ?></h3></a>
-												<?php echo get_the_date(); ?>
-												
+												<?php echo get_the_date(); ?>											
 											</div>
 										</div>
 									<?php endforeach; ?>
@@ -193,8 +189,11 @@ get_header();
 						<div class="title">
 							<h2><span>Наш </span>instagram</h2>
 						</div>	
-						<div class="row">
+						<div class="row no-adaptive">
 							  <?php echo do_shortcode( '[instagram-feed num=16 cols=8]' ); ?>
+						</div>
+						<div class="row yes-adaptive">
+							  <?php echo do_shortcode( '[instagram-feed num=4]' ); ?>
 						</div>
 					</div>
 				</div>

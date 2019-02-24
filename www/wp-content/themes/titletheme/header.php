@@ -15,7 +15,7 @@
 <div class="wrap-body">
 
 <!-- /////////////////////////////////////////Top -->
-<div class="top">
+<div class="top no-adaptive">
 	<div class="zerogrid">
 		<div class="row">
 			<div class="f-left">

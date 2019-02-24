@@ -40,7 +40,7 @@
 				</div>
 			</div>
 			<div class="col-1-4 col-footer-3">
-				<div class="wrap-col">
+				<div class="wrap-col no-adaptive">
 					<div class="row">
                         <?php echo do_shortcode( '[instagram-feed num=12 col=2]' ); ?>
 					</div>
