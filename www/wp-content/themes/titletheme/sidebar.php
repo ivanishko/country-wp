@@ -19,12 +19,11 @@
 	endif;
 
 
-
 	if (get_post_type()=='sportsnews' || get_post_type()=='post'):
 		dynamic_sidebar('sidebar-news');
 	endif;
 
-if (is_page('134')):
-    dynamic_sidebar('sidebar-footbal');
-endif;
+	if (is_page('134')):
+	    dynamic_sidebar('sidebar-footbal');
+	endif;
 ?>
