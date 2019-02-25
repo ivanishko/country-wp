@@ -76,4 +76,6 @@
 	.row.yes-adaptive {display: block;}
 
 	.item img {width: 100%;}
+
+	.zerogrid h1 {font-size: 24px; text-align: center;}
 }
