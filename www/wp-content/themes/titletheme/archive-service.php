@@ -32,6 +32,9 @@
 							<?php if($post['vk']): ?>
 								<div class="info">Ссылка ВК: <a href="https://www.vk.com/<?php echo $post['vk']?>" target=_blank rel="nofollow">@<?php echo $post['vk']?></a></div>
 							<?php endif;  ?>
+							<?php if($post['ok']): ?>
+								<div class="info"><a href="<?php echo $post['ok']?>" target=_blank rel="nofollow">Одноклассники</a></div>
+							<?php endif;  ?>
                                 <?php if($post['site']): ?>
                                     <div class="info">Сайт: <a href="<?php echo $post['site']?>" target=_blank rel="nofollow"><?php echo $post['site']?></a></div>
                                 <?php endif;  ?>
