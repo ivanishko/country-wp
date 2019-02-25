@@ -78,4 +78,6 @@
 	.item img {width: 100%;}
 
 	.zerogrid h1 {font-size: 24px; text-align: center;}
+	
+	.wrap-content p {text-align: justify;}
 }
