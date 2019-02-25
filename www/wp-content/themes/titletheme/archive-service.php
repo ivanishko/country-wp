@@ -41,7 +41,7 @@
 	<div style="clear:both"></div>
 		<?php	endforeach; ?>	
 </div>
-    <a href="/serviceslist">Добавиться на эту страницу</a>
+    <a href="/serviceslist" class="biglink">Добавиться на эту страницу</a>
 </div>
 
 

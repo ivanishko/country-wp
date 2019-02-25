@@ -160,6 +160,9 @@ article  h1.entry-title{line-height: 1.2;font-size: 38px;}
 .info a{text-shadow: none;}
 .info a:hover{color: #FFCD02;}
 
+a.biglink {display: block; text-transform: uppercase; padding:10px 20px; background-color: #777; color: #fff; text-align: center; margin:10px 0;}
+
+
 /* ---Sidebar-Widget--- */
 #sidebar{}
 #sidebar .wrap-sidebar{margin: 0px 10px ;}
