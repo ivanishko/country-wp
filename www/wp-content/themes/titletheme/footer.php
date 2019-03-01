@@ -35,7 +35,7 @@
 						<li><a href="/wall-of-sports-glory">Доска спортивной славы</a></li>
 
 						<li><a href="/service">Услуги</a></li>
-						<li><a href="/raspisanija">Расписания</a></li>
+						<li><a href="/buses">Расписания</a></li>
 					</ul>
 				</div>
 			</div>
