@@ -37,7 +37,10 @@
 		
 	}
 
-
+	function my_favicon() {
+	    echo '<link rel="shortcut icon" href="/favicon.ico" />';
+        }
+        add_action( 'wp_head', 'my_favicon' );
 
 
 
