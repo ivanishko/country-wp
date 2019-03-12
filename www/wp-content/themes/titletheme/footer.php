@@ -22,6 +22,9 @@
 				<div class="wrap-col">
 					<h3>О сайте</h3>
 					<p>Собственный патриотический проект Гирейских воспитанников</p>
+				<ul>
+                        <li><a href="/about">О создании</a></li>
+                </ul>
 					
 				</div>
 			</div>
@@ -58,7 +61,7 @@
 </footer>
 <div class="copyright">
 	<div class="zerogrid wrapper">
-		Copyright @ 2011-<?php echo date('Y');?> - <a href="http://www.megacode-it.ru" target="_blank" rel="nofollow">Проект Megacode-IT</a>
+		 &copy; 2011-<?= date('Y');?> - <a href="http://www.megacode-it.ru" target="_blank" >Проект Megacode-IT</a>
 		<ul class="quick-link">
 			<li>
                 <!-- Yandex.Metrika informer -->
