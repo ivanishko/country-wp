@@ -14,10 +14,9 @@
 						</div>
 						<div class="art-content">
 							<h3 style="font-size: 37px; line-height: 1.5;"><?php the_title() ?></h3>
-							<div class="info">Опубликовано:<?php the_date(); ?> в: <a href="#"><?php the_category(); ?></a></div>
-							<div class="excerpt">
-								<?php the_content() ?>
-						</div>
+							<div class="info">Опубликовано:<?php the_date(); ?></div>
+							<div class="excerpt"><?php the_content() ?></div>
+							<div><a href="#"><?php the_category(); ?></a></div>
 					</article>
 				</div>
 			</div>
