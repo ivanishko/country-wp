@@ -153,9 +153,9 @@ get_header();
 									<div class="row">
 										<script type="text/javascript" src="//www.goalstream.org/api/connect/all.js?20"></script>
 
-										<div id="gs_widget_7491"></div>
+										<div id="gs_widget_5ba6"></div>
 										<script type="text/javascript">
-										    GS.Widgets.ChampStandings("gs_widget_7491", {mode: 0, width: 100, widthUnits: "%", height: "400", title: "Зимнее первенство 2019 | Группа C", color1: "11b848", color2: "ffffff", color3: "000000", color4: "ffffff", textSize: 11, font: "Arial", clubLogos: 1, hideMatchCol: 0, additionally: "champ-full-schedule:0,champ-goalscorers", watermark: 0}, "gchampionship_tour:10360914");
+										    GS.Widgets.ChampFullSchedule("gs_widget_5ba6", {mode: 3, width: 100, widthUnits: "%", height: "auto", title: "Кубок Л.Назаренко. Расписание матчей.", color1: "27c200", color2: "ffffff", color3: "000000", color4: "ffffff", textSize: 11, font: "Arial", clubLogos: 1, hideMatchCol: 0, start_date: 2, end_date: 5, sort: 0, showStadiumPermanently: 0, additionally: "", watermark: 0}, "gchampionship_season:1032189");
 										</script>
 									</div>
 													
