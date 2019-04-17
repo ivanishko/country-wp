@@ -4,7 +4,7 @@
 
 	<meta charset="<?php bloginfo('charset')?>">
 	<title><?php the_title();?></title>
-	
+	<meta name="yandex-verification" content="5118078405ea186e" />
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
    
