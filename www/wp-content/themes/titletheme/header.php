@@ -1,15 +1,10 @@
 <!doctype html>
 <html <?php language_attributes(); ?>>
+<meta name="yandex-verification" content="5118078405ea186e" />
 <?php wp_head(); ?>  
-
 	<meta charset="<?php bloginfo('charset')?>">
 	<title><?php the_title();?></title>
-	<meta name="yandex-verification" content="5118078405ea186e" />
-
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-   
-
-  
 </head>
 <body>
 <div class="wrap-body">
