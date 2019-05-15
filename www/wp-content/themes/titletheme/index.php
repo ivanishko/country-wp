@@ -137,7 +137,7 @@ get_header();
 															    }
 															  }};
 															  d.documentElement.appendChild(js);
-															}(document,"ok_group_widget","44658839126187",'{"width":345,"height":375}');
+															}(document,"ok_group_widget","44658839126187",'{"width":345,"height":390}');
 															</script>
 											<a href="#"></a>
 										</div>
@@ -152,11 +152,10 @@ get_header();
 									</div>
 									<div class="row">
 										<script type="text/javascript" src="//www.goalstream.org/api/connect/all.js?20"></script>
-
-										<div id="gs_widget_5ba6"></div>
-										<script type="text/javascript">
-										    GS.Widgets.ChampFullSchedule("gs_widget_5ba6", {mode: 3, width: 100, widthUnits: "%", height: "auto", title: "Кубок Л.Назаренко. Расписание матчей.", color1: "27c200", color2: "ffffff", color3: "000000", color4: "ffffff", textSize: 11, font: "Arial", clubLogos: 1, hideMatchCol: 0, start_date: 2, end_date: 5, sort: 0, showStadiumPermanently: 0, additionally: "", watermark: 0}, "gchampionship_season:1032189");
-										</script>
+                                        <div id="gs_widget_074a"></div>
+                                        <script type="text/javascript">
+                                            GS.Widgets.ChampStandings("gs_widget_074a", {mode: "0", width: 100, widthUnits: "%", height: "400", title: "Районная футбольная лига 2019", color1: "11c208", color2: "ffffff", color3: "000000", color4: "ffffff", textSize: "12", font: "Arial", clubLogos: 1, hideMatchCol: 0, additionally: "champ-full-schedule:0,champ-goalscorers", watermark: 0}, "gchampionship_season:1032967");
+                                        </script>
 									</div>
 													
 								</div>
