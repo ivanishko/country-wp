@@ -2,3 +2,5 @@
 logs/*.log
 www/phpmyadmin
 ubuntu-xenial-16.04-cloudimg-console.log
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/workspace.xml
