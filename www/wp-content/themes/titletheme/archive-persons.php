@@ -5,19 +5,29 @@
     <div id="main-content" class="col-2-3">
         <div class="wrap-col">
             <div class="wrap-content">
-                <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-                    <article>
-                        <div class="art-header"><a href="<?php the_permalink();?>"><?php the_post_thumbnail() ?></a></div>
-                        <div class="art-content">
-                            <a href="<?php the_permalink();?>"><h3><?php the_title();?></h3></a>
-                            <div class="info">Опубликованно <?php the_date();?></div>
 
-                            <a class="button button02" href="<?php the_permalink();?>">ЧИТАТЬ ДАЛЕЕ...</a>
+                <?php foreach (getPersons() as $post ): ?>
+
+                    <article>
+                        <div class="art-header">
+                            <a href="<?php the_permalink();?>"></a>
+                            <div class="photo_person_archive"><a href="<?php the_permalink();?>"><?php the_post_thumbnail() ?></a></div>
+                        </div>
+                        <div class="art-content">
+                            <a  class="person_permalink" href="<?php the_permalink();?>"><h2><?php the_title();?></h2></a>
+
+                            <?php if (get_field( 'deathday' )) : ?>
+                                <span> <?php   echo get_field( 'birthday' ); ?> - <?php echo get_field( 'deathday' ); ?></span><br>
+                             <?php  else: ?>
+                                <span>род. <?php echo get_field( 'birthday' ); ?> </span><br>
+                            <?php  endif; ?>
+
+                            <strong><?php echo get_field( 'profession' ); ?></strong>
+
                         </div>
                     </article>
-                <?php endwhile; else: ?>
-                    <p><?php _p('Публикации не найдены'); ?></p>
-                <?php endif; ?>
+                <?php	endforeach; ?>
+
                 <?php the_posts_pagination() ?>
             </div>
         </div>

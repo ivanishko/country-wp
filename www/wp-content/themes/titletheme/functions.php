@@ -191,7 +191,7 @@
                 'public'              => true,
                 'show_ui'             => null, // зависит от public
                 'menu_icon'           => 'dashicons-smiley',
-                'supports'            => array('title','thumbnail'), // 'title','editor','author','thumbnail','excerpt','trackbacks','custom-fields','comments','revisions','page-attributes','post-formats'
+                'supports'            => array('title','editor','thumbnail'), // 'title','editor','author','thumbnail','excerpt','trackbacks','custom-fields','comments','revisions','page-attributes','post-formats'
                 'has_archive'		  => true,
 
             ) );
@@ -272,6 +272,26 @@
 		return $posts;
 	}
 
+
+    function getPersons(){
+        $args = array(
+            'numberposts' => 50,
+            'orderby'     => 'title',
+            'order'       => 'ASC',
+            'post_type'   => 'persons'
+        );
+
+        global $post;
+        foreach (get_posts($args)  as $post) {
+            setup_postdata($post);
+
+            //var_dump($post);
+
+            $posts[] = $post;
+        }
+        wp_reset_postdata();
+        return $posts;
+    }
 
 	function threenews($atts){
 		

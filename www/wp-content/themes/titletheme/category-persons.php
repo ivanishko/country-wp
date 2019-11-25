@@ -1,1 +1,1 @@
-category-persons.ru
+<?php

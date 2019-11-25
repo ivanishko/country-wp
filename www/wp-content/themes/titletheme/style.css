@@ -50,6 +50,8 @@ h1, h2 	{font-size: 25px;line-height: 25px;}
 h3, h4	{font-size: 20px;line-height: 20px;}
 h5, h6	{font-size: 18px;line-height: 16px;}
 
+a.person_permalink {text-decoration: none;}
+
 p{margin: 10px 0;}
 p.excerpt { margin: 0}
 
@@ -201,6 +203,19 @@ a.biglink {display: block; text-transform: uppercase; padding:10px 20px; backgro
 .post .wrapper {vertical-align: middle;text-align: left;line-height: 1.4em;padding-bottom: 7px;margin-top: 20px;}
 .post .wrapper span{font-size: 16px; line-height: 3; color: #999;}
 
+.photo_person {
+	max-width: 50%;
+	float: right;
+	padding: 10px 0 10px 10px;
+}
+
+.photo_person_archive {
+	float: right;
+	max-width: 25%;
+	padding: 10px;
+}
+
+
 /* ---------------------------------------------------------------------------- */
 /* -------------------------------------Footer--------------------------------- */
 /* ---------------------------------------------------------------------------- */
@@ -234,6 +249,12 @@ footer .logo{top: 0px;margin-bottom: 20px;text-align: center;}
 
 	.col-footer-3 {
 		display:none;
+	}
+
+
+	.photo_person {
+		width: 100%;
+		float: none;
 	}
 }
 /* ---------------------------------------------------------------------------- */
@@ -495,11 +516,22 @@ a.button.bt2 {background: #0000ff;color: #ffffff;}
 		display: none;
 	}
 
+	.photo_person {
+		width: 100%;
+		float: none;
+	}
+
 
 
 }
 @media(max-width: 468px){
 	.callbacks .caption {display:none;}
+
+
+	.photo_person {
+		width: 100%;
+		float: none;
+	}
 }
 .callbacks_nav {
   position: absolute;
@@ -546,3 +578,4 @@ a.button.bt2 {background: #0000ff;color: #ffffff;}
 
 	color: #fff;
 }
+
