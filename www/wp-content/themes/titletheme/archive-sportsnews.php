@@ -16,7 +16,7 @@
 							</div>
 						</article>
 					<?php endwhile; else: ?>
-					<p><?php _p('Публикации не найдены'); ?></p>
+<!--					<p>--><?php //_p('Публикации не найдены'); ?><!--</p>-->
 				<?php endif; ?>
 				<?php the_posts_pagination() ?>
 				</div>
