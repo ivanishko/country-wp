@@ -143,6 +143,8 @@
 		});
 
 
+
+
 	add_action( 'init', function(){
 			register_post_type('service', array(
 				'label'  => null,
@@ -169,6 +171,31 @@
 			) );
 		});
 
+        add_action( 'init', function(){
+            register_post_type('persons', array(
+                'label'  => null,
+                'labels' => array(
+                    'name'               => 'Персоналии', // основное название для типа записи
+                    'singular_name'      => 'Одна персона', // название для одной записи этого типа
+                    'add_new'            => 'Добавить персону', // для добавления новой записи
+                    'add_new_item'       => 'Добавление персоны', // заголовка у вновь создаваемой записи в админ-панели.
+                    'edit_item'          => 'Редактирование', // для редактирования типа записи
+                    'new_item'           => 'Новая запись', // текст новой записи
+                    'view_item'          => 'Смотреть', // для просмотра записи этого типа.
+                    'search_items'       => 'Искать', // для поиска по этим типам записи
+                    'not_found'          => 'Не найдено', // если в результате поиска ничего не было найдено
+                    'not_found_in_trash' => 'Не найдено в корзине', // если не было найдено в корзине
+                    'parent_item_colon'  => '', // для родителей (у древовидных типов)
+                    'menu_name'          => 'Личности', // название меню
+                ),
+                'public'              => true,
+                'show_ui'             => null, // зависит от public
+                'menu_icon'           => 'dashicons-smiley',
+                'supports'            => array('title','thumbnail'), // 'title','editor','author','thumbnail','excerpt','trackbacks','custom-fields','comments','revisions','page-attributes','post-formats'
+                'has_archive'		  => true,
+
+            ) );
+        });
 
 
 	function getServices(){
