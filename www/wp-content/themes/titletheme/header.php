@@ -1,5 +1,5 @@
 <!doctype html>
-<html <?php language_attributes(); ?>>
+<html lang="ru">
 <meta name="yandex-verification" content="5118078405ea186e" />
 <?php wp_head(); ?>  
 	<meta charset="<?php bloginfo('charset')?>">

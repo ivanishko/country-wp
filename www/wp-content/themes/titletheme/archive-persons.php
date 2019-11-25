@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div class="wrap-container zerogrid">
-    <h1></h1>
+    <h1>Знаменитые и талантливые гирейцы</h1>
     <div id="main-content" class="col-2-3">
         <div class="wrap-col">
             <div class="wrap-content">

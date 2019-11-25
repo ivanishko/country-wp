@@ -1,7 +1,4 @@
 <?php get_header(); ?>
- 
-
-
 
 <div class="wrap-container zerogrid">
 	<h1>УСЛУГИ</h1>
