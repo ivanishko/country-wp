@@ -2,108 +2,107 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="944b9461-50b7-490f-a7a2-b2b1382ce2be" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/wp-content/themes/titletheme/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-content/themes/titletheme/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-admin/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-admin/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-admin/async-upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-admin/async-upload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-admin/includes/ajax-actions.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-admin/includes/ajax-actions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-admin/network/upgrade.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-admin/network/upgrade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-content/languages/admin-network-ru_RU.mo" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-content/languages/admin-network-ru_RU.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-content/languages/admin-network-ru_RU.po" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-content/languages/admin-network-ru_RU.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-content/languages/admin-ru_RU.mo" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-content/languages/admin-ru_RU.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-content/languages/admin-ru_RU.po" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-content/languages/admin-ru_RU.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-content/languages/continents-cities-ru_RU.mo" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-content/languages/continents-cities-ru_RU.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-content/languages/continents-cities-ru_RU.po" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-content/languages/continents-cities-ru_RU.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-content/languages/ru_RU-0ce75ad2f775d1cac9696967d484808c.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-content/languages/ru_RU-0ce75ad2f775d1cac9696967d484808c.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-content/languages/ru_RU-1a0cd6a7128913b15c1a10dd68951869.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-content/languages/ru_RU-1a0cd6a7128913b15c1a10dd68951869.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-content/languages/ru_RU-1bba9045bb07c89671c88a3f328548e8.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-content/languages/ru_RU-1bba9045bb07c89671c88a3f328548e8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-content/languages/ru_RU-28b3c3d595952907e08d98287077426c.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-content/languages/ru_RU-28b3c3d595952907e08d98287077426c.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-content/languages/ru_RU-2c5d274ea625dd91556554ad82901529.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-content/languages/ru_RU-2c5d274ea625dd91556554ad82901529.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-content/languages/ru_RU-68f2cec7514bf8563c723a4d675fcfe6.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-content/languages/ru_RU-68f2cec7514bf8563c723a4d675fcfe6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-content/languages/ru_RU-7f13c36c641b114bf18cd0bcc9ecc7e0.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-content/languages/ru_RU-7f13c36c641b114bf18cd0bcc9ecc7e0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-content/languages/ru_RU-8860e58c20c6a2ab5876a0f07be43bd9.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-content/languages/ru_RU-8860e58c20c6a2ab5876a0f07be43bd9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-content/languages/ru_RU-a25d1cc7bf7ca0b4e114f6bea64943f4.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-content/languages/ru_RU-a25d1cc7bf7ca0b4e114f6bea64943f4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-content/languages/ru_RU-bf0f094965d3d4a95b47babcb35fc136.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-content/languages/ru_RU-bf0f094965d3d4a95b47babcb35fc136.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-content/languages/ru_RU-f8f49d9fc4a9cf7d78ec99285417bd9c.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-content/languages/ru_RU-f8f49d9fc4a9cf7d78ec99285417bd9c.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-content/languages/ru_RU.mo" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-content/languages/ru_RU.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-content/languages/ru_RU.po" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-content/languages/ru_RU.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-includes/class-wp-query.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-includes/class-wp-query.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-includes/class-wp.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-includes/class-wp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-includes/css/dist/block-library/editor-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-includes/css/dist/block-library/editor-rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-includes/css/dist/block-library/editor-rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-includes/css/dist/block-library/editor-rtl.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-includes/css/dist/block-library/editor.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-includes/css/dist/block-library/editor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-includes/css/dist/block-library/editor.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-includes/css/dist/block-library/editor.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-includes/embed.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-includes/embed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-includes/formatting.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-includes/formatting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-includes/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-includes/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-includes/http.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-includes/http.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-includes/js/dist/block-library.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-includes/js/dist/block-library.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-includes/js/dist/block-library.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-includes/js/dist/block-library.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-includes/js/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-includes/js/jquery/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-includes/kses.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-includes/kses.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-includes/ms-blogs.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-includes/ms-blogs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-includes/ms-functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-includes/ms-functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-includes/ms-load.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-includes/ms-load.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-includes/ms-site.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-includes/ms-site.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-includes/pluggable.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-includes/pluggable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-includes/post-template.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-includes/post-template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-includes/rest-api.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-includes/rest-api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-includes/script-loader.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-includes/script-loader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-includes/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-includes/user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-includes/version.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-includes/version.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/index.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/wp-content/themes/titletheme/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="157" column="49" selection-start-line="157" selection-start-column="49" selection-end-line="157" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/www/wp-content/themes/titletheme/index.php" />
-      </list>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="girey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girey" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girey" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girey" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girey" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girey" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="titletheme" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectId" id="1TrvadFR3qjA0zioedbNWK3SSyj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql&#10;mariadb" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/www/wp-content/themes/titletheme" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -128,53 +127,41 @@
       <option name="presentableId" value="Default" />
       <updated>1557919408245</updated>
       <workItem from="1557919409768" duration="305000" />
+      <workItem from="1559228623127" duration="2506000" />
+      <workItem from="1559644574626" duration="259000" />
+      <workItem from="1570459488913" duration="498000" />
+      <workItem from="1574089956914" duration="1571000" />
+      <workItem from="1574092475584" duration="544000" />
+      <workItem from="1574095431269" duration="1000" />
+      <workItem from="1574096218508" duration="154000" />
+      <workItem from="1574096502204" duration="502000" />
+      <workItem from="1574145722384" duration="794000" />
+      <workItem from="1574229621770" duration="37000" />
+      <workItem from="1574230042609" duration="29000" />
+      <workItem from="1574231101003" duration="165000" />
+      <workItem from="1574671503193" duration="11719000" />
+      <workItem from="1574756002240" duration="672000" />
+      <workItem from="1574766068859" duration="2107000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="305000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/wp-content/themes/titletheme/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="157" column="49" selection-start-line="157" selection-start-column="49" selection-end-line="157" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WordPressConfiguration" enabled="true">
+    <wordpressPath>$PROJECT_DIR$/www</wordpressPath>
   </component>
 </project>
