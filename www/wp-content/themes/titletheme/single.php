@@ -1,7 +1,4 @@
 <?php get_header(); ?>
-
-
-
 <section id="container" class="sub-page">
 	<div class="wrap-container zerogrid">
 		<div id="main-content" class="col-2-3">
@@ -26,6 +23,4 @@
 		</div>
 	</div>
 </section>
-
-
 <?php get_footer(); ?>

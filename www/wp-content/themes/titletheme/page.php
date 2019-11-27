@@ -1,5 +1,4 @@
 <?php get_header();?>
-
 <div class="wrap-container zerogrid">
 	<h1><?php the_title(); ?></h1>
 	<div id="main-content" class="col-2-3">

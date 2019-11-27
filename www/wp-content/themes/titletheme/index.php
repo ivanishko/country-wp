@@ -1,8 +1,6 @@
-<?php 
-
+<?php
 get_header();
 ?>
-
 <!--Container-->
 <section id="container" class="home-page">
 	<div class="wrap-container clearfix">
