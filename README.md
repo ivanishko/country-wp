@@ -14,29 +14,8 @@ _Note: Vagrant::Hostsupdater is optional to automatically add the entry to the h
 
 > **If you are using Windows, you may need to enable hardware virtualization (VT-x). It can usually be enabled via your BIOS. If you are using Hyper-V on a UEFI system you may additionally need to disable Hyper-V in order to access VT-x.**
 
-
-# Usage
-
-```
-git clone https://github.com/fsylum/vagrant-boilerplate <project-name>
-cd <project-name>
-vagrant up
-```
-
 All Vagrant commands like `vagrant halt`, `vagrant destroy` and `vagrant suspend` are applicable.
 
-# Credentials
-
-MySQL root:
-
-**User**: `root`
-**Password**: `password`
-
-Additional MySQL access:
-
-**User**: `vagrant`
-**Password**: `password`
-**Database**: `vagrant`
 
 # FAQ
 
