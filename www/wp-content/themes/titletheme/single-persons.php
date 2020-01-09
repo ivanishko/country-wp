@@ -14,7 +14,9 @@
                             <?php if (get_field( 'deathday' )) : ?>
                                 <span> <?php   echo get_field( 'birthday' ); ?> - <?php echo get_field( 'deathday' ); ?></span><br>
                             <?php  else: ?>
-                                <span>род. <?php echo get_field( 'birthday' ); ?> </span><br>
+                                <?php if (get_field( 'birthday' )) : ?>
+                                    <span>род!. <?php echo get_field( 'birthday' ); ?> </span><br>
+                                <?php  endif; ?>
                             <?php  endif; ?>
                             <div class="excerpt">
                                 <div class="photo_person"><?php the_post_thumbnail() ?></div>

@@ -19,9 +19,10 @@
                             <?php if (get_field( 'deathday' )) : ?>
                                 <span> <?php   echo get_field( 'birthday' ); ?> - <?php echo get_field( 'deathday' ); ?></span><br>
                              <?php  else: ?>
+                             <?php if (get_field( 'birthday' )) : ?>
                                 <span>род. <?php echo get_field( 'birthday' ); ?> </span><br>
                             <?php  endif; ?>
-
+                            <?php  endif; ?>
                             <strong><?php echo get_field( 'profession' ); ?></strong>
 
                         </div>
