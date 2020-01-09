@@ -15,14 +15,18 @@
                                 <span> <?php   echo get_field( 'birthday' ); ?> - <?php echo get_field( 'deathday' ); ?></span><br>
                             <?php  else: ?>
                                 <?php if (get_field( 'birthday' )) : ?>
-                                    <span>род!. <?php echo get_field( 'birthday' ); ?> </span><br>
+                                    <span>род. <?php echo get_field( 'birthday' ); ?> </span><br>
                                 <?php  endif; ?>
                             <?php  endif; ?>
                             <div class="excerpt">
                                 <div class="photo_person"><?php the_post_thumbnail() ?></div>
 
-<!--                                --><?php //echo get_field( 'biography' ); ?>
-                                <?php echo the_content(); ?>
+                                <?php if (get_field( 'biography' )): ?>
+                                    <?php echo (get_field( 'biography' )); ?>
+                                <?php  else: ?>
+                                <p><strong>Материал собирается</strong></p>
+                                <?php  endif; ?>
+
                             </div>
                     </article>
                 </div>
