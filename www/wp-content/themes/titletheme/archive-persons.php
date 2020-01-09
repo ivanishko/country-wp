@@ -15,7 +15,7 @@
                         </div>
                         <div class="art-content">
                             <a  class="person_permalink" href="<?php the_permalink();?>"><h2><?php the_title();?></h2></a>
-
+                            <p><strong><?php echo get_field( 'profession' ); ?></strong></p>
                             <?php if (get_field( 'deathday' )) : ?>
                                 <span> <?php   echo get_field( 'birthday' ); ?> - <?php echo get_field( 'deathday' ); ?></span><br>
                              <?php  else: ?>
@@ -23,8 +23,6 @@
                                 <span>род. <?php echo get_field( 'birthday' ); ?> </span><br>
                             <?php  endif; ?>
                             <?php  endif; ?>
-                            <strong><?php echo get_field( 'profession' ); ?></strong>
-
                         </div>
                     </article>
                 <?php	endforeach; ?>
