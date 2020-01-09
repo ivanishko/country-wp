@@ -2,7 +2,7 @@
 
 <section id="container" class="sub-page">
     <div class="wrap-container zerogrid">
-        <div id="main-content" class="col-2-3">
+        <div id="main-content" class="col-3-3">
             <div class="wrap-col">
                 <div class="wrap-content">
                     <?php the_post(); ?>
@@ -32,9 +32,9 @@
                 </div>
             </div>
         </div>
-        <div id="sidebar" class="col-1-3">
-            <?php get_sidebar(); ?>
-        </div>
+<!--        <div id="sidebar" class="col-1-3">-->
+<!--            --><?php //get_sidebar(); ?>
+<!--        </div>-->
     </div>
 </section>
 
